@@ -3,55 +3,359 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>DSP – Desperte o Teu Poder</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="hero-header">
         <nav class="navbar">
-            <h1 class="logo">Meu Portfólio</h1>
+            <div class="brand">
+                <span class="brand-mark">DSP</span>
+                <span class="brand-name">Desperte o Teu Poder</span>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-links">
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#programa">Programa</a></li>
+                <li><a href="#metodologia">Metodologia</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#inscricao" class="btn btn-sm">Inscreva-se</a></li>
             </ul>
         </nav>
+
+        <section class="hero" id="inicio">
+            <div class="hero-text">
+                <p class="eyebrow">Aplicativo de Desenvolvimento de Super Potencial</p>
+                <h1>Desperte o teu poder interior com um método guiado e transformador.</h1>
+                <p class="lead">
+                    O DSP combina neurociência, coaching e hábitos conscientes para construir uma rotina
+                    de alta performance personalizada. Um app pensado para quem deseja desbloquear o máximo
+                    da sua energia, foco e propósito.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn" href="#inscricao">Comece hoje</a>
+                    <a class="btn ghost" href="#metodologia">Ver como funciona</a>
+                </div>
+                <div class="hero-metrics">
+                    <div>
+                        <strong>40k+</strong>
+                        <span>Horas de práticas guiadas</span>
+                    </div>
+                    <div>
+                        <strong>93%</strong>
+                        <span>Dos usuários relatam mais foco em 4 semanas</span>
+                    </div>
+                    <div>
+                        <strong>4.9/5</strong>
+                        <span>Avaliação média nas stores</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card" role="img" aria-label="Captura do aplicativo DSP">
+                <div class="screen">
+                    <header>
+                        <span class="pill">Plano Evoluir</span>
+                        <h2>Jornada de Autodomínio</h2>
+                        <p>Dia 12 · Semana de Energia Criativa</p>
+                    </header>
+                    <ul>
+                        <li>
+                            <span class="status completed" aria-hidden="true"></span>
+                            Respiração consciente · 7 min
+                            <small>Concluído</small>
+                        </li>
+                        <li>
+                            <span class="status current" aria-hidden="true"></span>
+                            Ritual de foco · 15 min
+                            <small>Agora</small>
+                        </li>
+                        <li>
+                            <span class="status" aria-hidden="true"></span>
+                            Diário de conquistas
+                            <small>Agendado 21h</small>
+                        </li>
+                    </ul>
+                    <footer>
+                        <div>
+                            <strong>Progresso</strong>
+                            <span>67%</span>
+                        </div>
+                        <button class="btn btn-sm">Continuar</button>
+                    </footer>
+                </div>
+            </div>
+        </section>
     </header>
+
     <main>
-        <section id="hero" class="hero">
-            <h2>Olá, eu sou <span class="highlight">Seu Nome</span></h2>
-            <p>Desenvolvedor Web focado em criar experiências modernas e acessíveis.</p>
-        </section>
-        <section id="about" class="about">
-            <h2>Sobre mim</h2>
-            <p>Aqui você pode adicionar um pequeno texto falando da sua trajetória profissional e
-            das suas habilidades principais.</p>
-        </section>
-        <section id="projects" class="projects">
-            <h2>Projetos</h2>
-            <div class="project-grid">
-                <article class="project-item">
-                    <h3>Projeto 1</h3>
-                    <p>Breve descrição do projeto e tecnologias utilizadas.</p>
+        <section id="programa" class="section program">
+            <div class="section-header">
+                <span class="eyebrow">Programa DSP</span>
+                <h2>Uma trilha completa para ativar mente, corpo e propósito.</h2>
+                <p>
+                    Estruturamos o DSP em pilares que se complementam diariamente para criar consistência e
+                    expansão. Cada etapa é guiada pelo aplicativo com lembretes inteligentes, trilhas sonoras,
+                    exercícios somáticos e reflexões personalizadas.
+                </p>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>1. Despertar</h3>
+                    <p>Mapeie sua energia, identifique sabotadores e estabeleça objetivos com clareza cristalina.</p>
+                    <ul>
+                        <li>Mapa de energia diária</li>
+                        <li>Testes de foco e valores</li>
+                        <li>Mentorias ao vivo semanais</li>
+                    </ul>
                 </article>
-                <article class="project-item">
-                    <h3>Projeto 2</h3>
-                    <p>Breve descrição do projeto e tecnologias utilizadas.</p>
+                <article class="card">
+                    <h3>2. Super Hábitos</h3>
+                    <p>Integre micro hábitos potentes guiados pelo nosso motor comportamental adaptativo.</p>
+                    <ul>
+                        <li>Protocolos matinais DSP</li>
+                        <li>Gamificação consciente</li>
+                        <li>Acompanhamento de constância</li>
+                    </ul>
                 </article>
-                <article class="project-item">
-                    <h3>Projeto 3</h3>
-                    <p>Breve descrição do projeto e tecnologias utilizadas.</p>
+                <article class="card">
+                    <h3>3. Poder Criativo</h3>
+                    <p>Desbloqueie criatividade e expressão com sessões de visualização e foco profundo.</p>
+                    <ul>
+                        <li>Labs de ideias colaborativos</li>
+                        <li>Rituais de flow quinzenais</li>
+                        <li>Feedback de especialistas</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>4. Sustentação</h3>
+                    <p>Mantenha seu novo nível de performance com check-ups trimestrais e replanejamento.</p>
+                    <ul>
+                        <li>Relatórios inteligentes</li>
+                        <li>Comunidade ativa 24/7</li>
+                        <li>Planos de evolução personalizados</li>
+                    </ul>
                 </article>
             </div>
         </section>
-        <section id="contact" class="contact">
-            <h2>Contato</h2>
-            <p>Entre em contato através do email <a href="mailto:seuemail@example.com">seuemail@example.com</a>.</p>
+
+        <section id="metodologia" class="section methodology">
+            <div class="section-header">
+                <span class="eyebrow">Metodologia DSP</span>
+                <h2>Ciência + espiritualidade prática com tecnologia humana.</h2>
+                <p>
+                    O aplicativo integra protocolos baseados em neurociência com sabedorias ancestrais. Tudo é
+                    traduzido em jornadas semanais, com ajustes em tempo real a partir do seu ritmo.
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="dot"></span>
+                    <h3>Avaliação 360°</h3>
+                    <p>Questionários, biofeedback e análise de estilo de vida constroem seu ponto de partida.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="dot"></span>
+                    <h3>Inteligência Adaptativa</h3>
+                    <p>Algoritmo sugere práticas e rotinas baseadas no seu nível de energia e agenda.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="dot"></span>
+                    <h3>Guias Imersivos</h3>
+                    <p>Áudios 3D, vídeo aulas e notas rápidas conduzem cada micro hábito com presença.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="dot"></span>
+                    <h3>Medição de Impacto</h3>
+                    <p>Dashboard mostra evolução em foco, vitalidade e autoexpressão com relatórios mensais.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section resources">
+            <div class="section-header">
+                <span class="eyebrow">Recursos Premium</span>
+                <h2>Tecnologia emocional e suporte humano para o seu despertar.</h2>
+            </div>
+            <div class="feature-grid">
+                <article class="feature">
+                    <div class="icon" aria-hidden="true">🧠</div>
+                    <h3>Mindset Lab</h3>
+                    <p>Sessões curtas baseadas em neuroplasticidade para reprogramar crenças e expandir visão.</p>
+                </article>
+                <article class="feature">
+                    <div class="icon" aria-hidden="true">🔥</div>
+                    <h3>Ritmos de Energia</h3>
+                    <p>Alertas inteligentes sugerem pausas ativas, respirações e alongamentos restaurativos.</p>
+                </article>
+                <article class="feature">
+                    <div class="icon" aria-hidden="true">🤝</div>
+                    <h3>Mentores DSP</h3>
+                    <p>Coaches certificados acompanham sua jornada com feedbacks personalizados e lives semanais.</p>
+                </article>
+                <article class="feature">
+                    <div class="icon" aria-hidden="true">🎯</div>
+                    <h3>Planejamento Visionário</h3>
+                    <p>Ferramentas de OKRs pessoais e visualização criam rotas práticas para metas ousadas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="section testimonials">
+            <div class="section-header">
+                <span class="eyebrow">Experiências Reais</span>
+                <h2>Quem despertou o poder compartilha a transformação.</h2>
+            </div>
+            <div class="testimonial-grid">
+                <article class="testimonial">
+                    <p>“Em apenas 21 dias, criei uma rotina de alta performance que respeita meu ritmo. O DSP é um guia
+                        que combina ciência e alma.”</p>
+                    <h3>Ana Souza</h3>
+                    <span>Empreendedora Criativa</span>
+                </article>
+                <article class="testimonial">
+                    <p>“O app me ajudou a reduzir ansiedade, aumentar foco e trazer rituais de presença para a equipe inteira.”</p>
+                    <h3>Rafael Lima</h3>
+                    <span>Líder de Inovação</span>
+                </article>
+                <article class="testimonial">
+                    <p>“Os conteúdos são profundos, mas práticos. As trilhas guiadas salvaram meus dias de maior pressão.”</p>
+                    <h3>Marina Duarte</h3>
+                    <span>Produtora Executiva</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="section impact">
+            <div class="impact-card">
+                <div>
+                    <span class="eyebrow">Impacto Mensurável</span>
+                    <h2>Seu progresso em tempo real.</h2>
+                    <p>Dashboard intuitivo acompanha energia, foco, humor e conquistas. Visualize avanços, receba feedback
+                        instantâneo e ajuste a rota com confiança.</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-ring">
+                        <svg viewBox="0 0 120 120">
+                            <circle class="bg" cx="60" cy="60" r="52"></circle>
+                            <circle class="fg" cx="60" cy="60" r="52"></circle>
+                        </svg>
+                        <span class="progress-value">82%</span>
+                    </div>
+                    <ul>
+                        <li><strong>+47%</strong> produtividade semanal</li>
+                        <li><strong>+35%</strong> energia vital</li>
+                        <li><strong>-52%</strong> picos de estresse</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section community">
+            <div class="section-header">
+                <span class="eyebrow">Comunidade DSP</span>
+                <h2>Não desperte sozinho, desperte em tribo.</h2>
+                <p>Eventos mensais, círculos de cocriação e desafios coletivos mantêm você inspirado e sustentado.</p>
+            </div>
+            <div class="community-grid">
+                <article>
+                    <h3>Masterclasses ao vivo</h3>
+                    <p>Com especialistas em neurociência, produtividade consciente e espiritualidade aplicada.</p>
+                </article>
+                <article>
+                    <h3>Desafios de 7 dias</h3>
+                    <p>Ative novas camadas de potencial com práticas rápidas e acompanhamento diário.</p>
+                </article>
+                <article>
+                    <h3>Círculos de apoio</h3>
+                    <p>Espaços seguros para troca de experiências, celebração de conquistas e accountability.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section faq" id="faq">
+            <div class="section-header">
+                <span class="eyebrow">Perguntas Frequentes</span>
+                <h2>Tire suas dúvidas sobre o DSP.</h2>
+            </div>
+            <div class="faq-list">
+                <article class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Quanto tempo preciso dedicar por dia?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        O programa propõe ciclos de 15 a 30 minutos diários, com práticas opcionais extras para dias
+                        com mais disponibilidade.
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        O DSP é indicado para empresas?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Sim! Temos planos corporativos com dashboards coletivos e trilhas de liderança para squads e times híbridos.
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Há suporte humano disponível?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Nossos mentores respondem em até 24h dentro do aplicativo e realizam encontros ao vivo semanais.
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="inscricao" class="section cta">
+            <div class="cta-card">
+                <div class="cta-text">
+                    <span class="eyebrow">Inscreva-se</span>
+                    <h2>Desperte o teu poder agora.</h2>
+                    <p>Preencha o formulário para receber acesso antecipado ao aplicativo e às mentorias de lançamento.</p>
+                </div>
+                <form class="cta-form">
+                    <label>
+                        Nome
+                        <input type="text" name="nome" placeholder="Seu nome completo" required>
+                    </label>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" placeholder="nome@email.com" required>
+                    </label>
+                    <label>
+                        Objetivo principal
+                        <select name="objetivo" required>
+                            <option value="" disabled selected>Selecione</option>
+                            <option>Alta performance</option>
+                            <option>Gestão de tempo</option>
+                            <option>Equilíbrio emocional</option>
+                            <option>Propósito e carreira</option>
+                        </select>
+                    </label>
+                    <button type="submit" class="btn">Quero despertar</button>
+                    <small>Prometemos enviar somente conteúdo transformador.</small>
+                </form>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; <span id="year"></span> Seu Nome. Todos os direitos reservados.</p>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <span class="brand-mark">DSP</span>
+                <span>Desperte o Teu Poder</span>
+            </div>
+            <p>&copy; <span id="year"></span> DSP. Todas as transformações reservadas.</p>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
